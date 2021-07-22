@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E12F68A26A7C3810036BD54 /* JSPatchHomeSource.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E12F68926A7C3810036BD54 /* JSPatchHomeSource.js */; };
+		6E12F68C26A7D7A80036BD54 /* CommonDefine.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E12F68B26A7D7A80036BD54 /* CommonDefine.js */; };
+		6E12F68E26A7D9CC0036BD54 /* DBDetailViews.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E12F68D26A7D9CC0036BD54 /* DBDetailViews.js */; };
+		6E12F69026A7FB9C0036BD54 /* CommonViewContent.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E12F68F26A7FB9C0036BD54 /* CommonViewContent.js */; };
+		6E12F69326A8077D0036BD54 /* MyTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E12F69226A8077D0036BD54 /* MyTestView.m */; };
+		6E12F69526A80E380036BD54 /* JSPatchHomeSource-2.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E12F69426A80E380036BD54 /* JSPatchHomeSource-2.js */; };
+		6EE0D9CA26A18821005303B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D9C926A18821005303B1 /* AppDelegate.m */; };
+		6EE0D9D026A18821005303B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D9CF26A18821005303B1 /* ViewController.m */; };
+		6EE0D9D326A18821005303B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE0D9D126A18821005303B1 /* Main.storyboard */; };
+		6EE0D9D526A18824005303B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE0D9D426A18824005303B1 /* Assets.xcassets */; };
+		6EE0D9D826A18824005303B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE0D9D626A18824005303B1 /* LaunchScreen.storyboard */; };
+		6EE0D9DB26A18824005303B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D9DA26A18824005303B1 /* main.m */; };
+		6EE0D9E626A1947D005303B1 /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D9E326A1947D005303B1 /* JPEngine.m */; };
+		6EE0D9E726A1947D005303B1 /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EE0D9E526A1947D005303B1 /* JSPatch.js */; };
+		6EE0DA3B26A1948A005303B1 /* JPCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D9EA26A19488005303B1 /* JPCleaner.m */; };
+		6EE0DA3C26A1948A005303B1 /* JPStructPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D9EE26A19488005303B1 /* JPStructPointer.m */; };
+		6EE0DA3D26A1948A005303B1 /* JPMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D9EF26A19488005303B1 /* JPMemory.m */; };
+		6EE0DA3E26A1948A005303B1 /* JPCFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D9F026A19488005303B1 /* JPCFunction.m */; };
+		6EE0DA3F26A1948A005303B1 /* JPCGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D9FA26A19489005303B1 /* JPCGColor.m */; };
+		6EE0DA4026A1948A005303B1 /* JPCGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D9FC26A19489005303B1 /* JPCGPath.m */; };
+		6EE0DA4126A1948A005303B1 /* JPCGBitmapContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D9FD26A19489005303B1 /* JPCGBitmapContext.m */; };
+		6EE0DA4226A1948A005303B1 /* JPCoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D9FE26A19489005303B1 /* JPCoreGraphics.m */; };
+		6EE0DA4326A1948A005303B1 /* JPCGGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0D9FF26A19489005303B1 /* JPCGGeometry.m */; };
+		6EE0DA4426A1948A005303B1 /* JPCGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA0026A19489005303B1 /* JPCGTransform.m */; };
+		6EE0DA4526A1948A005303B1 /* JPCGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA0226A19489005303B1 /* JPCGImage.m */; };
+		6EE0DA4626A1948A005303B1 /* JPCGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA0426A19489005303B1 /* JPCGContext.m */; };
+		6EE0DA4726A1948A005303B1 /* JPUIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA0826A19489005303B1 /* JPUIGraphics.m */; };
+		6EE0DA4826A1948A005303B1 /* JPUIGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA0926A19489005303B1 /* JPUIGeometry.m */; };
+		6EE0DA4926A1948A005303B1 /* JPUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA0A26A19489005303B1 /* JPUIImage.m */; };
+		6EE0DA4A26A1948A005303B1 /* JPUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA0C26A19489005303B1 /* JPUIKit.m */; };
+		6EE0DA4B26A1948A005303B1 /* JPDevMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA1226A19489005303B1 /* JPDevMenu.m */; };
+		6EE0DA4C26A1948A005303B1 /* JPDevTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA1326A19489005303B1 /* JPDevTipView.m */; };
+		6EE0DA4D26A1948A005303B1 /* JPDevErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA1426A19489005303B1 /* JPDevErrorView.m */; };
+		6EE0DA4E26A1948A005303B1 /* JPPlayground.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA1626A19489005303B1 /* JPPlayground.m */; };
+		6EE0DA4F26A1948A005303B1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6EE0DA1726A19489005303B1 /* README.md */; };
+		6EE0DA5026A1948A005303B1 /* JPKeyCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA1B26A19489005303B1 /* JPKeyCommands.m */; };
+		6EE0DA5126A1948A005303B1 /* SGDirWatchdog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA1D26A19489005303B1 /* SGDirWatchdog.m */; };
+		6EE0DA5226A1948A005303B1 /* JPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA1E26A19489005303B1 /* JPProtocol.m */; };
+		6EE0DA5326A1948A005303B1 /* JPSpecialInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA1F26A19489005303B1 /* JPSpecialInit.m */; };
+		6EE0DA5426A1948A005303B1 /* JPMethodSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA2226A19489005303B1 /* JPMethodSignature.m */; };
+		6EE0DA5526A1948A005303B1 /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE0DA2D26A19489005303B1 /* libffi.a */; };
+		6EE0DA5626A1948A005303B1 /* JPLocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA3026A19489005303B1 /* JPLocker.m */; };
+		6EE0DA5726A1948A005303B1 /* JPBlockWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA3426A1948A005303B1 /* JPBlockWrapper.m */; };
+		6EE0DA5826A1948A005303B1 /* JPBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA3526A1948A005303B1 /* JPBlock.m */; };
+		6EE0DA5926A1948A005303B1 /* JPDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA3726A1948A005303B1 /* JPDispatch.m */; };
+		6EE0DA5A26A1948A005303B1 /* JPNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA3926A1948A005303B1 /* JPNumber.m */; };
+		6EE0DA6F26A19499005303B1 /* packer.php in Resources */ = {isa = PBXBuildFile; fileRef = 6EE0DA5D26A19499005303B1 /* packer.php */; };
+		6EE0DA7026A19499005303B1 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA6126A19499005303B1 /* RSA.m */; };
+		6EE0DA7126A19499005303B1 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA6326A19499005303B1 /* unzip.c */; };
+		6EE0DA7226A19499005303B1 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA6426A19499005303B1 /* zip.c */; };
+		6EE0DA7326A19499005303B1 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA6526A19499005303B1 /* ioapi.c */; };
+		6EE0DA7426A19499005303B1 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA6626A19499005303B1 /* mztools.c */; };
+		6EE0DA7526A19499005303B1 /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA6C26A19499005303B1 /* ZipArchive.m */; };
+		6EE0DA7626A19499005303B1 /* JPLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA6E26A19499005303B1 /* JPLoader.m */; };
+		6EE0DA7826A19C1E005303B1 /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EE0DA7726A19C1E005303B1 /* demo.js */; };
+		6EE0DA7B26A19C70005303B1 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0DA7A26A19C70005303B1 /* OneViewController.m */; };
+		6EE10B4626A52F040066C264 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE10B4526A52F040066C264 /* TwoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E12F68926A7C3810036BD54 /* JSPatchHomeSource.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatchHomeSource.js; sourceTree = "<group>"; };
+		6E12F68B26A7D7A80036BD54 /* CommonDefine.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = CommonDefine.js; sourceTree = "<group>"; };
+		6E12F68D26A7D9CC0036BD54 /* DBDetailViews.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBDetailViews.js; sourceTree = "<group>"; };
+		6E12F68F26A7FB9C0036BD54 /* CommonViewContent.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CommonViewContent.js; sourceTree = "<group>"; };
+		6E12F69126A8077D0036BD54 /* MyTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTestView.h; sourceTree = "<group>"; };
+		6E12F69226A8077D0036BD54 /* MyTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTestView.m; sourceTree = "<group>"; };
+		6E12F69426A80E380036BD54 /* JSPatchHomeSource-2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "JSPatchHomeSource-2.js"; sourceTree = "<group>"; };
+		6EE0D9C526A18821005303B1 /* JSPatchTraning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPatchTraning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE0D9C826A18821005303B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EE0D9C926A18821005303B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EE0D9CE26A18821005303B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6EE0D9CF26A18821005303B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EE0D9D226A18821005303B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EE0D9D426A18824005303B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EE0D9D726A18824005303B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EE0D9D926A18824005303B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE0D9DA26A18824005303B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EE0D9E326A1947D005303B1 /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		6EE0D9E426A1947D005303B1 /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		6EE0D9E526A1947D005303B1 /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		6EE0D9E926A19488005303B1 /* JPLocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLocker.h; sourceTree = "<group>"; };
+		6EE0D9EA26A19488005303B1 /* JPCleaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCleaner.m; sourceTree = "<group>"; };
+		6EE0D9EC26A19488005303B1 /* JPMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMemory.h; sourceTree = "<group>"; };
+		6EE0D9ED26A19488005303B1 /* JPCFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCFunction.h; sourceTree = "<group>"; };
+		6EE0D9EE26A19488005303B1 /* JPStructPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPStructPointer.m; sourceTree = "<group>"; };
+		6EE0D9EF26A19488005303B1 /* JPMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMemory.m; sourceTree = "<group>"; };
+		6EE0D9F026A19488005303B1 /* JPCFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCFunction.m; sourceTree = "<group>"; };
+		6EE0D9F126A19489005303B1 /* JPStructPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPStructPointer.h; sourceTree = "<group>"; };
+		6EE0D9F226A19489005303B1 /* JPDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDispatch.h; sourceTree = "<group>"; };
+		6EE0D9F526A19489005303B1 /* JPCGGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGGeometry.h; sourceTree = "<group>"; };
+		6EE0D9F626A19489005303B1 /* JPCoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCoreGraphics.h; sourceTree = "<group>"; };
+		6EE0D9F726A19489005303B1 /* JPCGBitmapContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGBitmapContext.h; sourceTree = "<group>"; };
+		6EE0D9F826A19489005303B1 /* JPCGTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGTransform.h; sourceTree = "<group>"; };
+		6EE0D9F926A19489005303B1 /* JPCGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGImage.h; sourceTree = "<group>"; };
+		6EE0D9FA26A19489005303B1 /* JPCGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGColor.m; sourceTree = "<group>"; };
+		6EE0D9FB26A19489005303B1 /* JPCGContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGContext.h; sourceTree = "<group>"; };
+		6EE0D9FC26A19489005303B1 /* JPCGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGPath.m; sourceTree = "<group>"; };
+		6EE0D9FD26A19489005303B1 /* JPCGBitmapContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGBitmapContext.m; sourceTree = "<group>"; };
+		6EE0D9FE26A19489005303B1 /* JPCoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCoreGraphics.m; sourceTree = "<group>"; };
+		6EE0D9FF26A19489005303B1 /* JPCGGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGGeometry.m; sourceTree = "<group>"; };
+		6EE0DA0026A19489005303B1 /* JPCGTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGTransform.m; sourceTree = "<group>"; };
+		6EE0DA0126A19489005303B1 /* JPCGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGColor.h; sourceTree = "<group>"; };
+		6EE0DA0226A19489005303B1 /* JPCGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGImage.m; sourceTree = "<group>"; };
+		6EE0DA0326A19489005303B1 /* JPCGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGPath.h; sourceTree = "<group>"; };
+		6EE0DA0426A19489005303B1 /* JPCGContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGContext.m; sourceTree = "<group>"; };
+		6EE0DA0626A19489005303B1 /* JPUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIImage.h; sourceTree = "<group>"; };
+		6EE0DA0726A19489005303B1 /* JPUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIKit.h; sourceTree = "<group>"; };
+		6EE0DA0826A19489005303B1 /* JPUIGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIGraphics.m; sourceTree = "<group>"; };
+		6EE0DA0926A19489005303B1 /* JPUIGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIGeometry.m; sourceTree = "<group>"; };
+		6EE0DA0A26A19489005303B1 /* JPUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIImage.m; sourceTree = "<group>"; };
+		6EE0DA0B26A19489005303B1 /* JPUIGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIGraphics.h; sourceTree = "<group>"; };
+		6EE0DA0C26A19489005303B1 /* JPUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIKit.m; sourceTree = "<group>"; };
+		6EE0DA0D26A19489005303B1 /* JPUIGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIGeometry.h; sourceTree = "<group>"; };
+		6EE0DA1026A19489005303B1 /* JPDevTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDevTipView.h; sourceTree = "<group>"; };
+		6EE0DA1126A19489005303B1 /* JPDevErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDevErrorView.h; sourceTree = "<group>"; };
+		6EE0DA1226A19489005303B1 /* JPDevMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDevMenu.m; sourceTree = "<group>"; };
+		6EE0DA1326A19489005303B1 /* JPDevTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDevTipView.m; sourceTree = "<group>"; };
+		6EE0DA1426A19489005303B1 /* JPDevErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDevErrorView.m; sourceTree = "<group>"; };
+		6EE0DA1526A19489005303B1 /* JPDevMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDevMenu.h; sourceTree = "<group>"; };
+		6EE0DA1626A19489005303B1 /* JPPlayground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPPlayground.m; sourceTree = "<group>"; };
+		6EE0DA1726A19489005303B1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6EE0DA1826A19489005303B1 /* JPPlayground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPPlayground.h; sourceTree = "<group>"; };
+		6EE0DA1A26A19489005303B1 /* SGDirWatchdog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDirWatchdog.h; sourceTree = "<group>"; };
+		6EE0DA1B26A19489005303B1 /* JPKeyCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPKeyCommands.m; sourceTree = "<group>"; };
+		6EE0DA1C26A19489005303B1 /* JPKeyCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPKeyCommands.h; sourceTree = "<group>"; };
+		6EE0DA1D26A19489005303B1 /* SGDirWatchdog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDirWatchdog.m; sourceTree = "<group>"; };
+		6EE0DA1E26A19489005303B1 /* JPProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPProtocol.m; sourceTree = "<group>"; };
+		6EE0DA1F26A19489005303B1 /* JPSpecialInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSpecialInit.m; sourceTree = "<group>"; };
+		6EE0DA2026A19489005303B1 /* JPNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNumber.h; sourceTree = "<group>"; };
+		6EE0DA2226A19489005303B1 /* JPMethodSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMethodSignature.m; sourceTree = "<group>"; };
+		6EE0DA2326A19489005303B1 /* JPMethodSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMethodSignature.h; sourceTree = "<group>"; };
+		6EE0DA2526A19489005303B1 /* ffitarget_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		6EE0DA2626A19489005303B1 /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		6EE0DA2726A19489005303B1 /* ffi_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm.h; sourceTree = "<group>"; };
+		6EE0DA2826A19489005303B1 /* ffi_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		6EE0DA2926A19489005303B1 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		6EE0DA2A26A19489005303B1 /* ffi_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
+		6EE0DA2B26A19489005303B1 /* ffitarget_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm.h; sourceTree = "<group>"; };
+		6EE0DA2C26A19489005303B1 /* ffitarget_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		6EE0DA2D26A19489005303B1 /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libffi.a; sourceTree = "<group>"; };
+		6EE0DA2E26A19489005303B1 /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		6EE0DA2F26A19489005303B1 /* ffi_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
+		6EE0DA3026A19489005303B1 /* JPLocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLocker.m; sourceTree = "<group>"; };
+		6EE0DA3126A19489005303B1 /* JPCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCleaner.h; sourceTree = "<group>"; };
+		6EE0DA3326A19489005303B1 /* JPBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPBlock.h; sourceTree = "<group>"; };
+		6EE0DA3426A1948A005303B1 /* JPBlockWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPBlockWrapper.m; sourceTree = "<group>"; };
+		6EE0DA3526A1948A005303B1 /* JPBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPBlock.m; sourceTree = "<group>"; };
+		6EE0DA3626A1948A005303B1 /* JPBlockWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPBlockWrapper.h; sourceTree = "<group>"; };
+		6EE0DA3726A1948A005303B1 /* JPDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDispatch.m; sourceTree = "<group>"; };
+		6EE0DA3826A1948A005303B1 /* JPSpecialInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSpecialInit.h; sourceTree = "<group>"; };
+		6EE0DA3926A1948A005303B1 /* JPNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNumber.m; sourceTree = "<group>"; };
+		6EE0DA3A26A1948A005303B1 /* JPProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPProtocol.h; sourceTree = "<group>"; };
+		6EE0DA5D26A19499005303B1 /* packer.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = packer.php; sourceTree = "<group>"; };
+		6EE0DA5E26A19499005303B1 /* JPLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLoader.h; sourceTree = "<group>"; };
+		6EE0DA6026A19499005303B1 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		6EE0DA6126A19499005303B1 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		6EE0DA6326A19499005303B1 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		6EE0DA6426A19499005303B1 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		6EE0DA6526A19499005303B1 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		6EE0DA6626A19499005303B1 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		6EE0DA6726A19499005303B1 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		6EE0DA6826A19499005303B1 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		6EE0DA6926A19499005303B1 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		6EE0DA6A26A19499005303B1 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		6EE0DA6B26A19499005303B1 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		6EE0DA6C26A19499005303B1 /* ZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipArchive.m; sourceTree = "<group>"; };
+		6EE0DA6D26A19499005303B1 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		6EE0DA6E26A19499005303B1 /* JPLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLoader.m; sourceTree = "<group>"; };
+		6EE0DA7726A19C1E005303B1 /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
+		6EE0DA7926A19C6F005303B1 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		6EE0DA7A26A19C70005303B1 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		6EE10B3A26A523A70066C264 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		6EE10B3C26A523BC0066C264 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		6EE10B4426A52F040066C264 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		6EE10B4526A52F040066C264 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EE0D9C226A18821005303B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE0DA5526A1948A005303B1 /* libffi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EE0D9BC26A18821005303B1 = {
+			isa = PBXGroup;
+			children = (
+				6EE0D9C726A18821005303B1 /* JSPatchTraning */,
+				6EE0D9C626A18821005303B1 /* Products */,
+				6EE10B3926A523A70066C264 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EE0D9C626A18821005303B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0D9C526A18821005303B1 /* JSPatchTraning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EE0D9C726A18821005303B1 /* JSPatchTraning */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0D9E126A19467005303B1 /* JSPatch */,
+				6EE0D9C826A18821005303B1 /* AppDelegate.h */,
+				6EE0D9C926A18821005303B1 /* AppDelegate.m */,
+				6EE0D9CE26A18821005303B1 /* ViewController.h */,
+				6EE0D9CF26A18821005303B1 /* ViewController.m */,
+				6EE10B4426A52F040066C264 /* TwoViewController.h */,
+				6EE10B4526A52F040066C264 /* TwoViewController.m */,
+				6E12F68926A7C3810036BD54 /* JSPatchHomeSource.js */,
+				6E12F68D26A7D9CC0036BD54 /* DBDetailViews.js */,
+				6E12F68B26A7D7A80036BD54 /* CommonDefine.js */,
+				6E12F68F26A7FB9C0036BD54 /* CommonViewContent.js */,
+				6EE0DA7726A19C1E005303B1 /* demo.js */,
+				6E12F69426A80E380036BD54 /* JSPatchHomeSource-2.js */,
+				6EE0DA7926A19C6F005303B1 /* OneViewController.h */,
+				6EE0DA7A26A19C70005303B1 /* OneViewController.m */,
+				6E12F69126A8077D0036BD54 /* MyTestView.h */,
+				6E12F69226A8077D0036BD54 /* MyTestView.m */,
+				6EE0D9D126A18821005303B1 /* Main.storyboard */,
+				6EE0D9D426A18824005303B1 /* Assets.xcassets */,
+				6EE0D9D626A18824005303B1 /* LaunchScreen.storyboard */,
+				6EE0D9D926A18824005303B1 /* Info.plist */,
+				6EE0D9DA26A18824005303B1 /* main.m */,
+			);
+			path = JSPatchTraning;
+			sourceTree = "<group>";
+		};
+		6EE0D9E126A19467005303B1 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0DA5B26A19499005303B1 /* Loader */,
+				6EE0D9E826A19488005303B1 /* Extensions */,
+				6EE0D9E226A1947D005303B1 /* JSPatch */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		6EE0D9E226A1947D005303B1 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0D9E326A1947D005303B1 /* JPEngine.m */,
+				6EE0D9E426A1947D005303B1 /* JPEngine.h */,
+				6EE0D9E526A1947D005303B1 /* JSPatch.js */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		6EE0D9E826A19488005303B1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0DA3226A19489005303B1 /* JPBlock */,
+				6EE0D9EB26A19488005303B1 /* JPCFunction */,
+				6EE0D9F326A19489005303B1 /* JPCFunctionBinder */,
+				6EE0DA3126A19489005303B1 /* JPCleaner.h */,
+				6EE0D9EA26A19488005303B1 /* JPCleaner.m */,
+				6EE0D9F226A19489005303B1 /* JPDispatch.h */,
+				6EE0DA3726A1948A005303B1 /* JPDispatch.m */,
+				6EE0DA2126A19489005303B1 /* JPLibffi */,
+				6EE0D9E926A19488005303B1 /* JPLocker.h */,
+				6EE0DA3026A19489005303B1 /* JPLocker.m */,
+				6EE0DA2026A19489005303B1 /* JPNumber.h */,
+				6EE0DA3926A1948A005303B1 /* JPNumber.m */,
+				6EE0DA0E26A19489005303B1 /* JPPlaygroundTool */,
+				6EE0DA3A26A1948A005303B1 /* JPProtocol.h */,
+				6EE0DA1E26A19489005303B1 /* JPProtocol.m */,
+				6EE0DA3826A1948A005303B1 /* JPSpecialInit.h */,
+				6EE0DA1F26A19489005303B1 /* JPSpecialInit.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6EE0D9EB26A19488005303B1 /* JPCFunction */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0D9EC26A19488005303B1 /* JPMemory.h */,
+				6EE0D9ED26A19488005303B1 /* JPCFunction.h */,
+				6EE0D9EE26A19488005303B1 /* JPStructPointer.m */,
+				6EE0D9EF26A19488005303B1 /* JPMemory.m */,
+				6EE0D9F026A19488005303B1 /* JPCFunction.m */,
+				6EE0D9F126A19489005303B1 /* JPStructPointer.h */,
+			);
+			path = JPCFunction;
+			sourceTree = "<group>";
+		};
+		6EE0D9F326A19489005303B1 /* JPCFunctionBinder */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0D9F426A19489005303B1 /* CoreGraphics */,
+				6EE0DA0526A19489005303B1 /* UIKit */,
+			);
+			path = JPCFunctionBinder;
+			sourceTree = "<group>";
+		};
+		6EE0D9F426A19489005303B1 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0D9F526A19489005303B1 /* JPCGGeometry.h */,
+				6EE0D9F626A19489005303B1 /* JPCoreGraphics.h */,
+				6EE0D9F726A19489005303B1 /* JPCGBitmapContext.h */,
+				6EE0D9F826A19489005303B1 /* JPCGTransform.h */,
+				6EE0D9F926A19489005303B1 /* JPCGImage.h */,
+				6EE0D9FA26A19489005303B1 /* JPCGColor.m */,
+				6EE0D9FB26A19489005303B1 /* JPCGContext.h */,
+				6EE0D9FC26A19489005303B1 /* JPCGPath.m */,
+				6EE0D9FD26A19489005303B1 /* JPCGBitmapContext.m */,
+				6EE0D9FE26A19489005303B1 /* JPCoreGraphics.m */,
+				6EE0D9FF26A19489005303B1 /* JPCGGeometry.m */,
+				6EE0DA0026A19489005303B1 /* JPCGTransform.m */,
+				6EE0DA0126A19489005303B1 /* JPCGColor.h */,
+				6EE0DA0226A19489005303B1 /* JPCGImage.m */,
+				6EE0DA0326A19489005303B1 /* JPCGPath.h */,
+				6EE0DA0426A19489005303B1 /* JPCGContext.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		6EE0DA0526A19489005303B1 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0DA0626A19489005303B1 /* JPUIImage.h */,
+				6EE0DA0726A19489005303B1 /* JPUIKit.h */,
+				6EE0DA0826A19489005303B1 /* JPUIGraphics.m */,
+				6EE0DA0926A19489005303B1 /* JPUIGeometry.m */,
+				6EE0DA0A26A19489005303B1 /* JPUIImage.m */,
+				6EE0DA0B26A19489005303B1 /* JPUIGraphics.h */,
+				6EE0DA0C26A19489005303B1 /* JPUIKit.m */,
+				6EE0DA0D26A19489005303B1 /* JPUIGeometry.h */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		6EE0DA0E26A19489005303B1 /* JPPlaygroundTool */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0DA1826A19489005303B1 /* JPPlayground.h */,
+				6EE0DA1626A19489005303B1 /* JPPlayground.m */,
+				6EE0DA1926A19489005303B1 /* JPPlaygroundModule */,
+				6EE0DA0F26A19489005303B1 /* JPPlaygroundView */,
+				6EE0DA1726A19489005303B1 /* README.md */,
+			);
+			path = JPPlaygroundTool;
+			sourceTree = "<group>";
+		};
+		6EE0DA0F26A19489005303B1 /* JPPlaygroundView */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0DA1026A19489005303B1 /* JPDevTipView.h */,
+				6EE0DA1126A19489005303B1 /* JPDevErrorView.h */,
+				6EE0DA1226A19489005303B1 /* JPDevMenu.m */,
+				6EE0DA1326A19489005303B1 /* JPDevTipView.m */,
+				6EE0DA1426A19489005303B1 /* JPDevErrorView.m */,
+				6EE0DA1526A19489005303B1 /* JPDevMenu.h */,
+			);
+			path = JPPlaygroundView;
+			sourceTree = "<group>";
+		};
+		6EE0DA1926A19489005303B1 /* JPPlaygroundModule */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0DA1A26A19489005303B1 /* SGDirWatchdog.h */,
+				6EE0DA1B26A19489005303B1 /* JPKeyCommands.m */,
+				6EE0DA1C26A19489005303B1 /* JPKeyCommands.h */,
+				6EE0DA1D26A19489005303B1 /* SGDirWatchdog.m */,
+			);
+			path = JPPlaygroundModule;
+			sourceTree = "<group>";
+		};
+		6EE0DA2126A19489005303B1 /* JPLibffi */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0DA2326A19489005303B1 /* JPMethodSignature.h */,
+				6EE0DA2226A19489005303B1 /* JPMethodSignature.m */,
+				6EE0DA2426A19489005303B1 /* libffi */,
+			);
+			path = JPLibffi;
+			sourceTree = "<group>";
+		};
+		6EE0DA2426A19489005303B1 /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0DA2526A19489005303B1 /* ffitarget_arm64.h */,
+				6EE0DA2626A19489005303B1 /* ffitarget.h */,
+				6EE0DA2726A19489005303B1 /* ffi_arm.h */,
+				6EE0DA2826A19489005303B1 /* ffi_i386.h */,
+				6EE0DA2926A19489005303B1 /* ffitarget_x86_64.h */,
+				6EE0DA2A26A19489005303B1 /* ffi_x86_64.h */,
+				6EE0DA2B26A19489005303B1 /* ffitarget_arm.h */,
+				6EE0DA2C26A19489005303B1 /* ffitarget_i386.h */,
+				6EE0DA2D26A19489005303B1 /* libffi.a */,
+				6EE0DA2E26A19489005303B1 /* ffi.h */,
+				6EE0DA2F26A19489005303B1 /* ffi_arm64.h */,
+			);
+			path = libffi;
+			sourceTree = "<group>";
+		};
+		6EE0DA3226A19489005303B1 /* JPBlock */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0DA3326A19489005303B1 /* JPBlock.h */,
+				6EE0DA3526A1948A005303B1 /* JPBlock.m */,
+				6EE0DA3626A1948A005303B1 /* JPBlockWrapper.h */,
+				6EE0DA3426A1948A005303B1 /* JPBlockWrapper.m */,
+			);
+			path = JPBlock;
+			sourceTree = "<group>";
+		};
+		6EE0DA5B26A19499005303B1 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0DA5E26A19499005303B1 /* JPLoader.h */,
+				6EE0DA6E26A19499005303B1 /* JPLoader.m */,
+				6EE0DA5F26A19499005303B1 /* libs */,
+				6EE0DA5C26A19499005303B1 /* tools */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		6EE0DA5C26A19499005303B1 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0DA5D26A19499005303B1 /* packer.php */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		6EE0DA5F26A19499005303B1 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0DA6226A19499005303B1 /* minizip */,
+				6EE0DA6D26A19499005303B1 /* RSA.h */,
+				6EE0DA6126A19499005303B1 /* RSA.m */,
+				6EE0DA6026A19499005303B1 /* ZipArchive.h */,
+				6EE0DA6C26A19499005303B1 /* ZipArchive.m */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		6EE0DA6226A19499005303B1 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0DA6326A19499005303B1 /* unzip.c */,
+				6EE0DA6426A19499005303B1 /* zip.c */,
+				6EE0DA6526A19499005303B1 /* ioapi.c */,
+				6EE0DA6626A19499005303B1 /* mztools.c */,
+				6EE0DA6726A19499005303B1 /* crypt.h */,
+				6EE0DA6826A19499005303B1 /* zip.h */,
+				6EE0DA6926A19499005303B1 /* unzip.h */,
+				6EE0DA6A26A19499005303B1 /* mztools.h */,
+				6EE0DA6B26A19499005303B1 /* ioapi.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		6EE10B3926A523A70066C264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EE10B3C26A523BC0066C264 /* libz.1.tbd */,
+				6EE10B3A26A523A70066C264 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EE0D9C426A18821005303B1 /* JSPatchTraning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE0D9DE26A18824005303B1 /* Build configuration list for PBXNativeTarget "JSPatchTraning" */;
+			buildPhases = (
+				6EE0D9C126A18821005303B1 /* Sources */,
+				6EE0D9C226A18821005303B1 /* Frameworks */,
+				6EE0D9C326A18821005303B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSPatchTraning;
+			productName = JSPatchTraning;
+			productReference = 6EE0D9C526A18821005303B1 /* JSPatchTraning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EE0D9BD26A18821005303B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6EE0D9C426A18821005303B1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 6EE0D9C026A18821005303B1 /* Build configuration list for PBXProject "JSPatchTraning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EE0D9BC26A18821005303B1;
+			productRefGroup = 6EE0D9C626A18821005303B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EE0D9C426A18821005303B1 /* JSPatchTraning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EE0D9C326A18821005303B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E12F68E26A7D9CC0036BD54 /* DBDetailViews.js in Resources */,
+				6EE0D9D826A18824005303B1 /* LaunchScreen.storyboard in Resources */,
+				6EE0D9D526A18824005303B1 /* Assets.xcassets in Resources */,
+				6E12F68A26A7C3810036BD54 /* JSPatchHomeSource.js in Resources */,
+				6E12F68C26A7D7A80036BD54 /* CommonDefine.js in Resources */,
+				6EE0DA6F26A19499005303B1 /* packer.php in Resources */,
+				6EE0DA4F26A1948A005303B1 /* README.md in Resources */,
+				6E12F69526A80E380036BD54 /* JSPatchHomeSource-2.js in Resources */,
+				6EE0D9E726A1947D005303B1 /* JSPatch.js in Resources */,
+				6EE0D9D326A18821005303B1 /* Main.storyboard in Resources */,
+				6EE0DA7826A19C1E005303B1 /* demo.js in Resources */,
+				6E12F69026A7FB9C0036BD54 /* CommonViewContent.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EE0D9C126A18821005303B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE0D9D026A18821005303B1 /* ViewController.m in Sources */,
+				6EE0DA5426A1948A005303B1 /* JPMethodSignature.m in Sources */,
+				6EE0DA5226A1948A005303B1 /* JPProtocol.m in Sources */,
+				6EE0DA4626A1948A005303B1 /* JPCGContext.m in Sources */,
+				6EE0D9E626A1947D005303B1 /* JPEngine.m in Sources */,
+				6EE0DA4B26A1948A005303B1 /* JPDevMenu.m in Sources */,
+				6EE0DA4526A1948A005303B1 /* JPCGImage.m in Sources */,
+				6EE0DA5726A1948A005303B1 /* JPBlockWrapper.m in Sources */,
+				6EE0DA4A26A1948A005303B1 /* JPUIKit.m in Sources */,
+				6EE0DA5826A1948A005303B1 /* JPBlock.m in Sources */,
+				6EE0DA3C26A1948A005303B1 /* JPStructPointer.m in Sources */,
+				6EE0DA4826A1948A005303B1 /* JPUIGeometry.m in Sources */,
+				6E12F69326A8077D0036BD54 /* MyTestView.m in Sources */,
+				6EE0DA7226A19499005303B1 /* zip.c in Sources */,
+				6EE0DA5126A1948A005303B1 /* SGDirWatchdog.m in Sources */,
+				6EE0DA7626A19499005303B1 /* JPLoader.m in Sources */,
+				6EE0DA4326A1948A005303B1 /* JPCGGeometry.m in Sources */,
+				6EE0DA4426A1948A005303B1 /* JPCGTransform.m in Sources */,
+				6EE0DA4226A1948A005303B1 /* JPCoreGraphics.m in Sources */,
+				6EE0DA5326A1948A005303B1 /* JPSpecialInit.m in Sources */,
+				6EE0DA3E26A1948A005303B1 /* JPCFunction.m in Sources */,
+				6EE0DA7126A19499005303B1 /* unzip.c in Sources */,
+				6EE0DA7326A19499005303B1 /* ioapi.c in Sources */,
+				6EE0DA5A26A1948A005303B1 /* JPNumber.m in Sources */,
+				6EE0DA4126A1948A005303B1 /* JPCGBitmapContext.m in Sources */,
+				6EE0DA4726A1948A005303B1 /* JPUIGraphics.m in Sources */,
+				6EE10B4626A52F040066C264 /* TwoViewController.m in Sources */,
+				6EE0DA7026A19499005303B1 /* RSA.m in Sources */,
+				6EE0DA5926A1948A005303B1 /* JPDispatch.m in Sources */,
+				6EE0DA5026A1948A005303B1 /* JPKeyCommands.m in Sources */,
+				6EE0D9CA26A18821005303B1 /* AppDelegate.m in Sources */,
+				6EE0D9DB26A18824005303B1 /* main.m in Sources */,
+				6EE0DA4E26A1948A005303B1 /* JPPlayground.m in Sources */,
+				6EE0DA4C26A1948A005303B1 /* JPDevTipView.m in Sources */,
+				6EE0DA4D26A1948A005303B1 /* JPDevErrorView.m in Sources */,
+				6EE0DA7B26A19C70005303B1 /* OneViewController.m in Sources */,
+				6EE0DA4026A1948A005303B1 /* JPCGPath.m in Sources */,
+				6EE0DA5626A1948A005303B1 /* JPLocker.m in Sources */,
+				6EE0DA3B26A1948A005303B1 /* JPCleaner.m in Sources */,
+				6EE0DA3D26A1948A005303B1 /* JPMemory.m in Sources */,
+				6EE0DA7526A19499005303B1 /* ZipArchive.m in Sources */,
+				6EE0DA3F26A1948A005303B1 /* JPCGColor.m in Sources */,
+				6EE0DA4926A1948A005303B1 /* JPUIImage.m in Sources */,
+				6EE0DA7426A19499005303B1 /* mztools.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EE0D9D126A18821005303B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE0D9D226A18821005303B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EE0D9D626A18824005303B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE0D9D726A18824005303B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EE0D9DC26A18824005303B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EE0D9DD26A18824005303B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EE0D9DF26A18824005303B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SCLDSY892;
+				INFOPLIST_FILE = JSPatchTraning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JSPatchTraning/JSPatch/Extensions/JPLibffi/libffi",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.vshow.live.dfgsdb1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EE0D9E026A18824005303B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPS8G2Y8UT;
+				INFOPLIST_FILE = JSPatchTraning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JSPatchTraning/JSPatch/Extensions/JPLibffi/libffi",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.vshow.live.dfgsdb1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EE0D9C026A18821005303B1 /* Build configuration list for PBXProject "JSPatchTraning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE0D9DC26A18824005303B1 /* Debug */,
+				6EE0D9DD26A18824005303B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE0D9DE26A18824005303B1 /* Build configuration list for PBXNativeTarget "JSPatchTraning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE0D9DF26A18824005303B1 /* Debug */,
+				6EE0D9E026A18824005303B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EE0D9BD26A18821005303B1 /* Project object */;
+}
